@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="S1" id="3ognLhnpbsFtHFavS4l6">
     <mxGraphModel dx="1218" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
@@ -218,7 +217,6 @@
     </mxGraphModel>
   </diagram>
 </mxfile>
-=======
 <mxfile host="65bd71144e" pages="3">
     <diagram name="S1" id="3ognLhnpbsFtHFavS4l6">
         <mxGraphModel dx="473" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
@@ -438,4 +436,3 @@
         </mxGraphModel>
     </diagram>
 </mxfile>
->>>>>>> 653c69c (fixes.)
