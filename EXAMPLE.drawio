@@ -234,7 +234,7 @@
                 <mxCell id="ea0jaLF1So3nulOcNW1f-2" value="Account" style="rounded=0;whiteSpace=wrap;html=1;" parent="ea0jaLF1So3nulOcNW1f-36" vertex="1">
                     <mxGeometry x="420" y="120" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="ea0jaLF1So3nulOcNW1f-3" value="Database" style="rounded=0;whiteSpace=wrap;html=1;" parent="ea0jaLF1So3nulOcNW1f-36" vertex="1">
+                <mxCell id="ea0jaLF1So3nulOcNW1f-3" value="Database" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="ea0jaLF1So3nulOcNW1f-36" vertex="1">
                     <mxGeometry x="260" y="240" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="ea0jaLF1So3nulOcNW1f-4" value="WAREHOUSE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="ea0jaLF1So3nulOcNW1f-36" vertex="1">
