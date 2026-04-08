@@ -124,5 +124,12 @@
     "endArrow": "block",
     "endFill": "1"
   },
-  "hediet.vscode-drawio.customFonts": ["JetBrains Mono"]
+  "hediet.vscode-drawio.customFonts": ["JetBrains Mono"],
+  "hediet.vscode-drawio.customLibraries": [
+    {
+      "libName": "Brand icons",
+      "entryId": "all-icons",
+      "file": "${workspaceFolder}/libraries/all-icons.xml"
+    }
+  ]
 }
