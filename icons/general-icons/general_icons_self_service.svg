@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="11.110433mm"
+   height="11.38251mm"
+   viewBox="0 0 11.110433 11.38251"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1208"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path1208" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1213"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-707.0567,-152.01594)"
+         id="path1213" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,31.904496,-242.64754)"><g
+       id="g270"
+       transform="translate(0,79.999992)"><g
+         id="g169"
+         transform="translate(0,-119.99999)"><path
+           id="path1207"
+           d="m 280694.4,43649.723 397.3,662.804 v 170.696 h -12.98 c -177.69,0 -384.32,-92.836 -384.32,-210.623 z m -2316.8,-559.993 v 1526.25 h -2538.4 v -1526.25 z m -2764,-451.187 c -124.8,0 -226.6,102.817 -226.6,226.594 v 1979.433 c 0,124.778 101.8,225.594 226.6,225.594 h 2989.6 c 124.77,0 225.58,-100.816 225.58,-225.594 v -1979.433 c 1,-123.777 -99.81,-226.594 -225.58,-226.594 z m 3536.6,-367.336 v 6641.039 h -4096.6 v -6641.039 z m -4452.95,-706.73 c -193.65,0 -354.37,158.713 -354.37,354.363 v 6993.406 h -490.13 c -194.63,0 -354.35,156.714 -354.35,352.364 v 495.11 c 0,193.65 156.72,354.36 354.35,354.36 h 6499.28 c 194.67,0 354.35,-157.717 354.35,-354.36 v -495.11 c 0,-194.65 -156.68,-352.364 -354.35,-352.364 h -496.09 V 45499.39 h 167.68 c 25.94,0 46.91,2.997 59.88,4.993 v 1483.327 c 0,402.274 328.4,729.69 729.7,729.69 402.27,0 729.68,-327.416 729.68,-729.69 v -2738.07 c 0,-40.925 -11.98,-80.85 -32.94,-116.79 l -567.97,-954.28 c -40.94,-68.875 -115.77,-109.8 -195.67,-109.8 h -653.8 c -123.78,0 -224.6,101.816 -224.6,226.59 0,122.78 100.82,225.593 224.6,225.593 h 148.72 v 749.652 c 0,415.25 424.25,663.805 835.5,663.805 h 10.98 v 2053.3 c 0,154.724 -122.76,278.5 -275.5,278.5 -154.73,0 -277.5,-123.776 -277.5,-278.5 v -1488.32 c 0,-134.757 -50.92,-452.183 -514.08,-452.183 h -166.68 V 41918.84 c 0,-194.65 -156.72,-354.363 -354.38,-354.363 z"
+           style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-828,848)"
+           clip-path="url(#clipPath1208)" /></g><text
+         id="text1212"
+         xml:space="preserve"
+         transform="translate(-120.9433,880.0159)"
+         clip-path="url(#clipPath1213)"><tspan
+           id="tspan1212"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#11567f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">Self Service</tspan></text></g></g></svg>

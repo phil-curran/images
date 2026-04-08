@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="12.308324mm"
+   height="12.52538mm"
+   viewBox="0 0 12.308324 12.52538"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath235"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path235" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath237"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path237" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath238"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-54.588159,-233.42896)"
+         id="path238" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,209.36621,-49.782187)"><g
+       id="g52"><g
+         id="g24"><path
+           id="path234"
+           d="m 24017.08,72453.78 c 2104.908,0 3449.375,777.15 3449.375,1311.165 0,535.105 -1344.467,1311.165 -3449.375,1311.165 -2106.764,0 -3451.23,-776.06 -3451.23,-1311.165 0,-534.015 1347.252,-1311.165 3451.23,-1311.165 z m 3449.375,2474.71 v 4427.36 c 0,536.19 -1344.467,1313.34 -3449.375,1313.34 -2106.764,0 -3451.23,-777.15 -3451.23,-1310.08 v -4430.62 c 781.795,599.15 2141.119,918.25 3451.23,918.25 1310.111,0 2669.436,-319.1 3449.375,-918.25 z M 24017.08,71686.4 c -1990.701,0 -4107.68,729.39 -4107.68,2079.63 v 5589.82 c 0,1352.41 2116.979,2078.55 4107.68,2078.55 1990.701,0 4106.752,-728.31 4106.752,-2078.55 v -5588.73 c 0,-1351.33 -2114.193,-2080.72 -4106.752,-2080.72 z"
+           style="fill:#28b5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-831.08289,0)"
+           clip-path="url(#clipPath235)" /></g><path
+         id="path236"
+         d="m 15155.24,86302.96 h 17724 v 3420 h -17724 z"
+         style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none"
+         transform="matrix(0.00262467,0,0,0.00262467,-831.08289,0)"
+         clip-path="url(#clipPath237)" /><text
+         id="text237"
+         xml:space="preserve"
+         transform="translate(-776.49473,233.42896)"
+         clip-path="url(#clipPath238)"><tspan
+           id="tspan237"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#11567f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">Data</tspan></text></g></g></svg>

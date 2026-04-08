@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="5.8725095mm"
+   height="12.956371mm"
+   viewBox="0 0 5.8725095 12.956371"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1151"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path1151" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1154"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-300.9818,-152.01594)"
+         id="path1154" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,139.34515,-241.46849)"><g
+       id="g265"
+       transform="translate(0,79.999992)"><g
+         id="g164"
+         transform="translate(0,-119.99999)"><path
+           id="path1150"
+           d="m 119450.09,40807.29 -989.81,2313.093 c -63.76,143.487 -47.83,310.894 38.53,443.754 85.03,131.531 233.84,211.246 390.61,211.246 h 2612.02 l -2439.3,4984.91 298.94,-2864.463 c 15.94,-131.533 -29.24,-261.736 -118.25,-361.38 -89.02,-98.317 -216.56,-155.446 -349.42,-155.446 h -2439.31 l 757.3,-4571.714 z m -2635.94,-940.65 c -228.52,0 -425.15,166.075 -463.68,393.266 l -915.41,5508.379 c -21.25,135.515 15.95,275.02 106.29,382.635 89.02,106.29 219.22,164.748 357.4,164.748 h 2472.52 l -523.47,4975.609 c -25.24,227.193 118.25,441.093 337.47,502.213 43.84,10.627 87.68,17.27 130.2,17.27 175.37,0 344.11,-98.315 422.49,-264.393 l 3940.63,-8039.363 c 70.41,-140.828 65.1,-313.547 -22.59,-451.724 -86.36,-138.175 -236.49,-221.874 -398.58,-221.874 h -2651.88 l 991.13,-2309.109 c 62.45,-146.145 47.83,-314.879 -39.86,-445.082 -85.03,-131.531 -232.5,-212.575 -390.61,-212.575 z"
+           style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-828,848)"
+           clip-path="url(#clipPath1151)" /></g><text
+         id="text1153"
+         xml:space="preserve"
+         transform="translate(-527.0182,880.0159)"
+         clip-path="url(#clipPath1154)"><tspan
+           id="tspan1153"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#11567f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">Speed</tspan></text></g></g></svg>

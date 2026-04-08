@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="8.8097982mm"
+   height="11.897723mm"
+   viewBox="0 0 8.8097982 11.897723"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath44"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path44" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath241"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-129.08116,-233.42896)"
+         id="path241" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,185.57466,-49.888493)"><g
+       id="g53"
+       transform="translate(0,119.99999)"><g
+         id="g25"
+         transform="translate(0,-119.99999)"><path
+           id="path43"
+           d="m 55704.082,72630.88 c 2146.178,0 3316.516,680.74 3316.516,1029.495 0,348.75 -1170.338,1029.495 -3316.516,1029.495 -2143.942,0 -3314.282,-680.745 -3314.282,-1029.495 0,-348.755 1170.34,-1029.495 3314.282,-1029.495 z m 3316.516,2146.175 v 818.225 c 0,348.76 -1170.338,1029.49 -3316.516,1029.49 -2143.942,0 -3314.282,-680.73 -3314.282,-1029.49 v -818.225 c 784.696,465 2054.52,704.211 3314.282,704.211 1260.878,0 2529.586,-239.211 3316.516,-704.211 z m 0,1937.14 v 810.405 c 0,348.75 -1170.338,1029.49 -3316.516,1029.49 -2143.942,0 -3314.282,-680.74 -3314.282,-1029.49 v -810.405 c 784.696,465.005 2054.52,701.975 3314.282,701.975 1260.878,0 2529.586,-236.97 3316.516,-701.975 z m 0,1929.321 v 818.234 c 0,348.75 -1170.338,1029.49 -3316.516,1029.49 -2143.942,0 -3314.282,-680.74 -3314.282,-1029.49 v -818.234 c 784.696,465.004 2054.52,703.104 3314.282,703.104 1260.878,0 2529.586,-238.1 3316.516,-703.104 z M 55704.082,71839.48 c -2041.105,0 -4105.682,625.965 -4105.682,1822.01 v 5800.26 c 0,1194.92 2065.694,1820.89 4105.682,1820.89 2039.988,0 4106.801,-623.73 4106.801,-1820.89 v -5801.375 c 2.237,-1194.93 -2064.578,-1820.895 -4106.801,-1820.895 z"
+           style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-831.08289,0)"
+           clip-path="url(#clipPath44)" /></g><text
+         id="text240"
+         xml:space="preserve"
+         transform="translate(-702.00173,113.42896)"
+         clip-path="url(#clipPath241)"><tspan
+           id="tspan240"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#11567f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">Database</tspan></text></g></g></svg>

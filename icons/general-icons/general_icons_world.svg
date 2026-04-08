@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="7.1633143mm"
+   height="10.042059mm"
+   viewBox="0 0 7.1633143 10.042059"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath958"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-718.0266,-233.42886)"
+         id="path958" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath963"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path963" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,29.933902,-158.10663)"><g
+       id="g314"
+       transform="translate(0,99.999991)"><text
+         id="text957"
+         xml:space="preserve"
+         transform="translate(-109.9734,535.42885)"
+         clip-path="url(#clipPath958)"><tspan
+           id="tspan957"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#105780;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -0.14399999"
+           y="0">World</tspan></text><g
+         id="g126"
+         transform="translate(0,-119.99999)"><path
+           id="path962"
+           d="m 277520.97,74511.6 c -2848.47,0 -5157.59,2309.13 -5157.59,5157.595 0,2848.475 2309.12,5157.605 5157.59,5157.605 2848.47,0 5157.59,-2309.13 5157.59,-5157.605 0,-2848.465 -2309.12,-5157.595 -5157.59,-5157.595 z m -1611.75,1108.88 c -593.16,860.67 -986.42,2191.965 -1031.52,3732.8 h -1708.45 c 123.41,-1663.264 1182.55,-3111.3 2730.28,-3732.8 z m -2739.97,4364.6 h 1698.78 c 45.13,1540.834 438.37,2872.13 1031.5,3732.834 -1547.73,-621.5 -2606.87,-2069.574 -2730.28,-3732.834 z m 4035.78,4035.84 h -83.78 c -805.87,-386.834 -1550.5,-1898.63 -1611.75,-4029.39 h 1705.22 z m 0,-4664.39 h -1705.23 c 70.95,-2130.76 815.58,-3642.55 1611.8,-4029.39 h 83.78 z m 631.81,-4039.05 h 83.82 c 805.87,386.83 1550.5,1898.63 1611.74,4029.35 h -1695.56 z m 83.82,8703.44 h -83.82 v -4035.84 h 1705.26 c -70.94,2130.75 -815.57,3642.55 -1621.44,4035.84 z m 1221.72,-296.584 c 593.12,-860.672 986.37,-2191.966 1031.5,-3732.806 h 1698.82 c -125.8,1660.9 -1184.6,3105.9 -2730.32,3726.384 z m 1031.5,-4364.596 c -45.13,-1540.84 -438.38,-2872.14 -1031.5,-3732.8 1545.72,620.45 2604.52,2065.48 2730.32,3726.34 z"
+           style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-828,421.99999)"
+           clip-path="url(#clipPath963)" /></g></g></g></svg>

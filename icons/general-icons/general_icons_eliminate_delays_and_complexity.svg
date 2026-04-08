@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="15.595947mm"
+   height="15.584132mm"
+   viewBox="0 0 15.595947 15.584132"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath856"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-116.4162,-477.66781)"
+         id="path856" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath857"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-118.6369,-486.30781)"
+         id="path857" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath867"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path867" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,188.10578,-217.77609)"><g
+       id="g274"
+       transform="translate(0,91.999991)"><text
+         id="text855"
+         xml:space="preserve"
+         transform="translate(-711.5838,779.6678)"
+         clip-path="url(#clipPath856)"><tspan
+           id="tspan855"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#11567f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">Eliminate Delays </tspan></text><text
+         id="text856"
+         xml:space="preserve"
+         transform="translate(-709.3631,788.3078)"
+         clip-path="url(#clipPath857)"><tspan
+           id="tspan856"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#11567f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">and Complexity</tspan></text><g
+         id="g151"
+         transform="translate(0,-119.99999)"><path
+           id="path866"
+           d="m 55698.523,163483.69 c -108.153,0 -217.763,31.87 -309.835,93 l -1360.658,919.39 c -227.99,156.76 -277.682,450.39 -106.686,658.98 100.844,122.22 258.683,189.99 415.062,189.99 108.154,0 217.764,-31.89 309.84,-94.33 l 536.367,-361.38 v 3079.69 c -1033.277,130.2 -1652.953,684.24 -1652.953,1510.61 v 5224.06 c 0,261.74 232.38,471.64 515.91,471.64 289.375,0 518.832,-212.56 518.832,-471.64 v -5224.06 c 0,-496.89 607.981,-603.17 1118.043,-603.17 8.77,0 13.155,-3.99 21.925,-3.99 8.767,1.33 13.153,3.99 20.462,3.99 510.063,0 1118.043,106.28 1118.043,603.17 v 5224.06 c 0,261.74 235.301,471.64 518.832,471.64 286.453,0 518.833,-212.56 518.833,-471.64 v -5224.06 c 0,-827.7 -625.52,-1380.41 -1664.645,-1510.61 v -3079.69 l 536.365,361.38 c 93.537,62.44 201.69,93 309.84,93 156.38,0 312.76,-65.1 412.142,-188.66 172.458,-208.59 124.228,-502.22 -103.765,-658.98 l -1362.117,-919.39 c -93.536,-61.13 -201.684,-93 -309.837,-93 z"
+           style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-828,421.99999)"
+           clip-path="url(#clipPath867)" /></g></g></g></svg>

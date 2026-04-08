@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="11.892814mm"
+   height="12.233932mm"
+   viewBox="0 0 11.892814 12.233931"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1043"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path1043" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1055"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-539.3755,-396.25469)"
+         id="path1055" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,76.270147,-196.2166)"><g
+       id="g290"
+       transform="translate(0,87.999991)"><g
+         id="g145"
+         transform="translate(0,-119.99999)"><path
+           id="path1042"
+           d="m 212357.5,135477.38 v 659.95 h -602.84 z m 1631.78,3390.93 v 746.71 h -1475.84 v -746.71 z m 1787.7,-1.09 v 747.8 h -1475.84 v -747.8 z m -1787.7,1058.56 v 750 h -1475.84 v -750 z m 1785.5,0 v 750 h -1475.84 v -750 z m -1785.5,1059.67 v 697.28 h -1475.84 v -697.28 z m 1785.5,0 v 697.28 h -1475.84 v -697.28 z m -3510.61,-3193.28 c -135.06,0 -247.07,110.91 -247.07,248.17 v 3890.56 c 0,137.27 112.01,249.27 247.07,249.27 h 3762.08 c 135.06,0 248.17,-112 248.17,-249.27 v -3890.56 c 0,-137.26 -113.11,-248.17 -248.17,-248.17 z m 4756.95,-3053.81 v 8235.75 h -5751.82 v -6060.42 h 1475.84 c 215.22,0 389.81,-172.39 389.81,-389.83 v -1785.5 z m -4162.89,-776.36 c -109.81,0 -214.12,47.22 -287.7,126.28 l -1977.67,2167.66 c -64.78,72.46 -101.02,166.9 -101.02,261.34 v 6845.55 c 0,213.03 173.5,387.64 389.83,387.64 h 6525.99 c 213.03,0 389.82,-172.41 389.82,-387.64 v -9014.3 c 0,-213.03 -173.5,-386.53 -389.82,-386.53 z"
+           style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-828,421.99999)"
+           clip-path="url(#clipPath1043)" /></g><text
+         id="text1054"
+         xml:space="preserve"
+         transform="translate(-288.6245,698.25468)"
+         clip-path="url(#clipPath1055)"><tspan
+           id="tspan1054"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#11567f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">Spreadsheet</tspan></text></g></g></svg>

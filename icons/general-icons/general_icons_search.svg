@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="7.4125447mm"
+   height="9.466568mm"
+   viewBox="0 0 7.4125447 9.4665679"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath967"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path967" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath970"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-882.0696,-233.42886)"
+         id="path970" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,-14.040736,-158.68316)"><g
+       id="g316"
+       transform="translate(0,99.999991)"><path
+         id="path966"
+         d="m 339643.7,76195.78 c 829.8,0 1606.5,324.93 2194.74,913.17 1211.53,1213.94 1211.53,3194.89 0,4408.83 -588.24,590.665 -1368.54,913.17 -2194.74,913.17 -828.64,0 -1607.73,-324.92 -2195.98,-913.17 -1210.32,-1213.94 -1210.32,-3194.89 0,-4408.83 588.25,-589.45 1367.34,-913.17 2195.98,-913.17 z m 3139.33,5558.75 2582.47,2593.36 c 188.44,188.43 188.44,494.03 0,682.46 l -33.8,33.82 c -94.23,93.01 -217.42,140.12 -341.86,140.12 -120.78,0 -245.18,-47.11 -340.62,-140.12 l -2582.47,-2595.77 c 0,0 269.35,-241.58 380.47,-337 108.72,-96.634 335.81,-376.87 335.81,-376.87 z M 339643.7,75341.8 c -1058.14,0 -2052.23,414.31 -2799.92,1163.21 -1542.5,1547.31 -1542.5,4068.19 0,5617.93 747.69,748.896 1741.78,1162 2799.92,1162 584.6,0 1147.5,-129.245 1664.5,-369.62 l 154.58,158.235 2582.5,2593.359 c 252.44,252.456 587.02,392.566 944.56,392.566 357.56,0 694.56,-140.11 945.78,-392.566 l 32.63,-33.824 c 523.03,-520.606 523.03,-1367.34 3.63,-1891.57 l -2583.68,-2590.934 -159.45,-161.856 c 682.45,-1471.23 421.53,-3273.41 -785.15,-4483.72 -747.7,-750.11 -1741.8,-1163.21 -2799.9,-1163.21 z"
+         style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         transform="matrix(0.00262467,0,0,0.00262467,-828,301.99999)"
+         clip-path="url(#clipPath967)" /><text
+         id="text969"
+         xml:space="preserve"
+         transform="translate(54.0696,535.42885)"
+         clip-path="url(#clipPath970)"><tspan
+           id="tspan969"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#11567f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">Search</tspan></text></g></g></svg>

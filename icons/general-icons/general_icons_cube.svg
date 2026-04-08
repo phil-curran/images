@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="8.3752861mm"
+   height="12.687131mm"
+   viewBox="0 0 8.3752861 12.687131"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1035"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-885.1779,-314.84176)"
+         id="path1035" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1037"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path1037" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,-13.478219,-174.88642)"><g
+       id="g305"
+       transform="translate(0,91.999991)"><text
+         id="text1034"
+         xml:space="preserve"
+         transform="translate(57.1779,616.84175)"
+         clip-path="url(#clipPath1035)"><tspan
+           id="tspan1034"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#105780;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">Cube</tspan></text><g
+         id="g138"
+         transform="translate(0,-119.99999)"><path
+           id="path1036"
+           d="m 346770.1,104729.56 -13.2,-11 -3365.68,-2880.9 c -86.42,-74.13 -196.44,-114.97 -310.25,-115.14 h -7727.35 c -263.84,0.81 -477.15,215.11 -476.74,478.92 l 31.52,7627.63 c 0.72,126.89 51.9,248.27 142.3,337.37 l 3199.92,3144.21 c 88.76,88.44 209.16,137.81 334.44,137.15 h 7875.54 c 263.3,0 476.7,-213.42 476.7,-476.73 v -7879.19 c 0,-139.43 -61.08,-271.87 -167.2,-362.32 z m -10908.98,4894.89 -26.37,-6353.67 2269.19,2033.79 v 6516.49 z m 649.1,-6948.47 h 6394.75 l 2393.15,1939.17 h -6539.22 z m 9473.66,9816.9 h -6926.48 v -6924.28 h 6925 z"
+           style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-828,421.99999)"
+           clip-path="url(#clipPath1037)" /></g></g></g></svg>

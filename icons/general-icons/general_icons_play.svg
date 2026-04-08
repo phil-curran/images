@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="7.5644598mm"
+   height="12.824605mm"
+   viewBox="0 0 7.5644598 12.824605"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath991"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path991" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath994"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-304.767,-314.84176)"
+         id="path994" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,140.16169,-175.16856)"><g
+       id="g298"
+       transform="translate(0,91.999991)"><g
+         id="g131"
+         transform="translate(0,-119.99999)"><path
+           id="path990"
+           d="m 118126.22,106104 2439.95,1401.16 -2454.45,1431.37 z m -423.98,-1164.41 c -73.68,0 -146.15,18.11 -212.58,55.56 -132.88,77.3 -213.81,215.01 -215.01,368.41 l -20.54,4313.41 c 0,152.19 79.73,295.94 212.59,373.24 66.44,37.45 140.12,56.77 212.6,56.77 73.68,0 147.36,-19.32 216.21,-56.77 l 3737.24,-2177.84 c 131.66,-77.31 211.38,-217.43 211.38,-369.62 2.42,-152.19 -78.51,-293.52 -211.38,-369.62 l -3717.91,-2137.98 c -66.44,-37.45 -140.12,-55.56 -212.6,-55.56 z m 1378.21,-1958.01 c 2532.97,0 4592.44,2058.26 4592.44,4591.23 0,2530.55 -2059.47,4592.44 -4592.44,4592.44 -2530.54,0 -4591.22,-2061.89 -4591.22,-4592.44 0,-2532.97 2060.68,-4591.23 4591.22,-4591.23 z m 0,-852.78 c -3000.41,0 -5445.2,2443.58 -5445.2,5446.43 0,3000.42 2444.79,5445.21 5445.2,5445.21 3002.84,0 5447.63,-2444.79 5447.63,-5445.21 0,-3005.26 -2443.58,-5446.43 -5447.63,-5446.43 z"
+           style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-828,421.99999)"
+           clip-path="url(#clipPath991)" /></g><text
+         id="text993"
+         xml:space="preserve"
+         transform="translate(-523.233,616.84175)"
+         clip-path="url(#clipPath994)"><tspan
+           id="tspan993"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#11567f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">Play</tspan></text></g></g></svg>

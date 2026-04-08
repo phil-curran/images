@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="7.5854387mm"
+   height="11.30472mm"
+   viewBox="0 0 7.5854387 11.30472"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath424"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path424" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath427"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-383.48027,-396.25478)"
+         id="path427" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,118.98284,-93.958337)"><g
+       id="g343"
+       transform="translate(0,119.99999)"><g
+         id="g89"
+         transform="translate(0,-119.99999)"><path
+           id="path423"
+           d="m 147683.34,136569.6 c -94.22,0 -170.31,76.09 -170.31,170.3 v 3908.77 c 0,93 77.3,169.11 170.31,169.11 95.43,0 170.32,-76.11 170.32,-169.11 v -3738.45 h 5836.56 c 94.22,0 170.31,-76.1 170.31,-170.32 0,-94.21 -76.09,-170.3 -167.89,-170.3 z m 6678.47,-411.9 v 5138.41 h -2326.41 c -148.57,0 -272.98,120.78 -272.98,272.99 v 177.56 h -1987 v -177.56 c 0,-148.58 -122,-272.99 -272.98,-272.99 h -2324 v -5138.41 z m -5132.36,5685.58 v 177.56 h -3051.15 c -137.69,0 -230.7,-77.29 -279.02,-177.56 z m 6382.53,0 c -80.92,102.67 -215,177.56 -357.53,177.56 h -2944.85 v -177.56 z m -8532.59,-6543.18 c -417.92,0 -757.34,339.42 -757.34,757.34 v 5238.67 h -740.45 c -150.99,0 -274.2,124.41 -274.2,272.99 v 77.29 c 0,526.66 374.46,922.84 870.9,922.84 h 9076.15 c 520.6,0 975.99,-431.21 975.99,-922.84 v -77.29 c 0,-152.21 -119.6,-272.99 -270.58,-274.21 H 155217 v -5237.45 c 0,-417.92 -339.4,-757.34 -754.94,-757.34 z"
+           style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-831.08289,0)"
+           clip-path="url(#clipPath424)" /></g><text
+         id="text426"
+         xml:space="preserve"
+         transform="translate(-447.60262,276.25478)"
+         clip-path="url(#clipPath427)"><tspan
+           id="tspan426"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#11567f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">Laptop</tspan></text></g></g></svg>

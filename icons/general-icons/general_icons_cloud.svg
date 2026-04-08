@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="7.8244123mm"
+   height="11.198434mm"
+   viewBox="0 0 7.8244123 11.198434"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath919"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-302.0971,-233.42886)"
+         id="path919" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath947"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path947" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,140.29491,-156.95129)"><g
+       id="g309"
+       transform="translate(0,99.999991)"><text
+         id="text918"
+         xml:space="preserve"
+         transform="translate(-525.9029,535.42885)"
+         clip-path="url(#clipPath919)"><tspan
+           id="tspan918"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#105780;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">Cloud</tspan></text><g
+         id="g121"
+         transform="translate(0,-119.99999)"><path
+           id="path946"
+           d="m 115909.17,75585.445 c -1464.87,107.005 -2565.61,1381.245 -2458.57,2846.075 102.09,1397.85 1271.53,2476.496 2673.05,2465.58 h 6333.95 c 1215.76,28.21 2224.13,-934.45 2252.38,-2150.17 16.68,-720.13 -319.89,-1402.92 -901.25,-1828.235 5.61,-2242.585 -1807.79,-4065.125 -4050.38,-4070.775 -1736.39,-4.334 -3283.42,1095.87 -3849.18,2737.525 z m 7002.39,1333.25 c 0,53.641 0,100.075 0,150.115 v 50.08 c -12.28,171.25 75.46,334.18 225.19,418.196 638.35,342.609 878.1,1137.859 535.49,1776.219 -238.51,444.465 -710.76,712.775 -1214.64,690.175 h -6333.95 c -975.24,0 -1765.81,-790.566 -1765.81,-1765.81 0,-975.2 790.57,-1765.76 1765.81,-1765.76 v 0 h 85.76 c 210.6,8.2 398.29,-131.82 450.39,-335.996 436.42,-1695.794 2164.91,-2716.744 3860.71,-2280.324 1395.8,359.215 2373.7,1614.72 2380.32,3055.95 z"
+           style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-828,421.99999)"
+           clip-path="url(#clipPath947)" /></g></g></g></svg>

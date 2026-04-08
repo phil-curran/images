@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="6.7836609mm"
+   height="13.042997mm"
+   viewBox="0 0 6.7836609 13.042997"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1243"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path1243" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1251"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-55.2546,-314.84176)"
+         id="path1251" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,205.80008,-284.48769)"><g
+       id="g240"
+       transform="translate(0,79.999992)"><g
+         id="g183"
+         transform="translate(0,-119.99999)"><path
+           id="path1242"
+           d="m 21015.79,102995.45 6260.37,635.07 -1589.008,1361.82 c -106.289,90.35 -164.746,219.22 -164.746,357.39 0,138.18 62.444,268.39 164.746,358.73 l 1589.008,1363.15 -6260.37,639.05 z m -474.311,-987.14 c -115.589,0 -225.864,43.84 -310.893,120.9 -98.316,89.02 -155.447,215.23 -155.447,348.1 v 5748.85 c 0,257.75 215.234,469 467.668,469 11.957,0 25.243,-1.33 37.201,-1.33 13.285,3.98 25.244,3.98 37.201,3.98 17.271,0 31.887,0 49.158,-3.98 l 7794.904,-799.82 c 186.006,-19.93 344.109,-147.47 401.239,-326.84 57.13,-178.03 0,-374.66 -144.817,-492.9 l -2004.861,-1719.21 2004.861,-1720.54 c 144.817,-122.24 201.947,-317.54 144.817,-496.9 -57.13,-179.36 -215.233,-308.24 -402.567,-326.84 l -7866.65,-799.82 c -17.272,-1.33 -34.543,-2.65 -51.814,-2.65 z m -1125.327,-193.98 c -164.746,0 -300.263,135.51 -300.263,298.94 v 11181.5 c 0,163.43 135.517,298.94 300.263,298.94 164.746,0 301.594,-135.51 301.594,-298.94 v -11181.5 c 0,-167.41 -136.848,-298.94 -301.594,-298.94 z"
+           style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-828,848)"
+           clip-path="url(#clipPath1243)" /></g><text
+         id="text1250"
+         xml:space="preserve"
+         transform="translate(-772.7454,1042.8418)"
+         clip-path="url(#clipPath1251)"><tspan
+           id="tspan1250"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#11567f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">Flag</tspan></text></g></g></svg>

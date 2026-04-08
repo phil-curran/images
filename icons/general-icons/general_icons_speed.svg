@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="7.5837493mm"
+   height="11.754372mm"
+   viewBox="0 0 7.5837493 11.754372"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1143"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-217.8115,-152.01594)"
+         id="path1143" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1149"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path1149" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,162.17936,-242.67049)"><g
+       id="g264"
+       transform="translate(0,79.999992)"><text
+         id="text1142"
+         xml:space="preserve"
+         transform="translate(-610.1885,880.0159)"
+         clip-path="url(#clipPath1143)"><tspan
+           id="tspan1142"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#11567f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">Speed</tspan></text><g
+         id="g163"
+         transform="translate(0,-119.99999)"><path
+           id="path1148"
+           d="m 88692.9,43672.69 -4536.87,2651.34 -963.905,-879.35 z m 1630.66,-315.26 -5132.365,3887.023 c -73.679,19.324 -141.32,49.524 -196.885,108.711 -176.35,188.43 -364.79,384.109 -538.724,565.296 13.289,-329.757 31.404,-705.413 50.734,-1058.12 2.414,-33.82 0,-68.85 -4.83,-99.047 z m 559.26,259.7 -3479.96,5378.776 -1634.28,-1505.043 z m 1537.66,-2019.61 c -43.49,0 -86.97,6.04 -129.246,19.328 l -10064.218,3238.379 c -146.156,48.316 -253.666,167.898 -287.486,316.468 -32.61,147.365 18.12,305.598 129.25,405.855 l 1572.68,1433.78 c -115.95,2094.494 -85.76,2117.443 118.376,2273.264 76.104,59.186 169.109,90.594 263.324,90.594 44.69,0 90.59,-7.25 132.87,-21.743 109.915,-36.238 158.236,-51.941 1166.83,-1110.062 l 1869.83,1723.677 c 77.3,74.885 183.6,112.33 289.896,112.33 16.904,0 35.034,-1.206 53.148,-4.83 125.616,-16.91 239.166,-84.552 305.596,-192.056 l 4941.52,-7623.054 c 96.63,-152.196 89.384,-350.294 -20.54,-492.825 -83.34,-108.711 -210.17,-169.105 -341.83,-169.105 z"
+           style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-828,848)"
+           clip-path="url(#clipPath1149)" /></g></g></g></svg>

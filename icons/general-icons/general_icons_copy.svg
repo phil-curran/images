@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="6.4136271mm"
+   height="12.716053mm"
+   viewBox="0 0 6.4136271 12.716053"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1398"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path1398" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1407"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-719.0667,-314.84176)"
+         id="path1407" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,29.55943,-284.81463)"><g
+       id="g248"
+       transform="translate(0,79.999992)"><g
+         id="g191"
+         transform="translate(0,-119.99999)"><path
+           id="path1397"
+           d="m 274999.56,104928.02 v 1056.91 h -895.06 z m 6281.06,-1787.7 v 8289.84 h -401.02 v -7528.86 c 0,-236.74 -190.85,-428.81 -427.6,-428.81 h -3658.72 l 297.16,-332.17 z m -1257.4,1184.95 v 7943.17 h -6265.38 v -5429.52 h 1666.88 c 234.34,0 428.81,-190.85 428.81,-427.6 v -2086.05 z m -3122.44,-2040.14 c -122,0 -239.16,51.94 -318.88,141.32 l -937.34,1046.04 h -337 c -125.62,0 -244,55.57 -326.12,152.2 l -1978.54,2338.5 c -64.02,76.1 -100.28,173.94 -100.28,274.19 v 6457.45 c 0,236.75 189.66,428.8 428.82,428.8 H 280452 c 235.56,0 427.6,-189.64 427.6,-428.8 v -408.27 h 829.84 c 235.53,0 428.81,-192.06 428.81,-428.81 v -9143.82 c -3.63,-236.74 -193.28,-428.8 -428.81,-428.8 z"
+           style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-828,848)"
+           clip-path="url(#clipPath1398)" /></g><text
+         id="text1406"
+         xml:space="preserve"
+         transform="translate(-108.9333,1042.8418)"
+         clip-path="url(#clipPath1407)"><tspan
+           id="tspan1406"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#11567f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">Copy</tspan></text></g></g></svg>

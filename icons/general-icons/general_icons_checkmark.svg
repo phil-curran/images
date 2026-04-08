@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="10.589535mm"
+   height="12.423846mm"
+   viewBox="0 0 10.589535 12.423846"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath996"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path996" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath999"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-375.486,-314.84176)"
+         id="path999" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,119.62224,-175.14971)"><g
+       id="g299"
+       transform="translate(0,91.999991)"><g
+         id="g132"
+         transform="translate(0,-119.99999)"><path
+           id="path995"
+           d="m 153179.94,104975.24 c -144.96,0 -287.49,68.85 -376.88,193.27 l -2570.4,3742.07 -1576.32,-1515.92 c -86.96,-83.34 -200.51,-125.62 -312.84,-125.62 -119.6,0 -239.17,47.11 -327.34,140.12 -172.74,178.77 -166.69,467.46 12.07,640.18 l 1962.85,1889.16 c 85.75,82.13 196.87,126.83 314.04,126.83 14.5,0 27.78,0 44.69,-2.42 132.88,-13.28 251.25,-85.76 328.57,-194.47 l 2872.37,-4182.96 c 142.53,-206.54 90.59,-490.4 -115.95,-631.72 -78.52,-53.15 -166.69,-78.52 -254.86,-78.52 z m -2410.99,-1966.46 c 2518.49,0 4564.67,2048.6 4564.67,4564.65 0,2518.47 -2049.81,4565.86 -4564.67,4565.86 -2518.47,0 -4564.65,-2047.39 -4564.65,-4565.86 0,-2516.05 2046.18,-4564.65 4564.65,-4564.65 z m 0,-907.13 c -3018.53,0 -5471.78,2455.66 -5471.78,5471.78 0,3019.75 2453.25,5474.2 5471.78,5474.2 3017.35,0 5473,-2454.45 5473,-5474.2 0,-3016.12 -2455.65,-5471.78 -5473,-5471.78 z"
+           style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-828,421.99999)"
+           clip-path="url(#clipPath996)" /></g><text
+         id="text998"
+         xml:space="preserve"
+         transform="translate(-452.514,616.84175)"
+         clip-path="url(#clipPath999)"><tspan
+           id="tspan998"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#11567f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">Checkmark</tspan></text></g></g></svg>

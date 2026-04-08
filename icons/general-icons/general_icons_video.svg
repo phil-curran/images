@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="6.818141mm"
+   height="11.728632mm"
+   viewBox="0 0 6.818141 11.728632"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1073"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path1073" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1079"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-801.4118,-396.25469)"
+         id="path1079" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,7.7565778,-196.32606)"><g
+       id="g293"
+       transform="translate(0,87.999991)"><g
+         id="g148"
+         transform="translate(0,-119.99999)"><path
+           id="path1072"
+           d="m 308141,136824.23 2324.7,1291.38 -2324.7,1347.36 z m -250.34,-670.93 c -42.86,0 -85.66,10.98 -123,32.93 -74.69,46.13 -123,127.39 -123,215.24 v 3493.06 c -1.1,90.03 48.31,171.3 124.09,217.42 39.53,23.07 82.37,31.85 124.09,31.85 43.91,0 86.76,-12.08 126.28,-31.85 l 3076.88,-1784.42 c 77.97,-43.92 122.97,-128.47 122.97,-218.51 0,-88.96 -48.31,-171.32 -126.27,-213.04 l -3079.08,-1710.84 c -38.42,-20.86 -80.15,-31.84 -122.96,-31.84 z m 5446.56,-1258.42 v 6202.06 h -8262.1 v -6202.06 z m 0,6699.5 v 1222.18 h -8262.1 v -1222.18 z m -8649.72,-7474.76 c -214.16,0 -388.75,172.4 -388.75,388.72 v 8696.96 c 0,215.22 173.5,389.82 388.75,389.82 h 9039.53 c 214.13,0 389.85,-173.5 389.85,-389.82 v -8696.96 c -1.13,-216.32 -175.72,-388.72 -389.85,-388.72 z"
+           style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-828,421.99999)"
+           clip-path="url(#clipPath1073)" /></g><text
+         id="text1078"
+         xml:space="preserve"
+         transform="translate(-26.5882,698.25468)"
+         clip-path="url(#clipPath1079)"><tspan
+           id="tspan1078"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#11567f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           dx="0 -0.14399999"
+           y="0">Video</tspan></text></g></g></svg>

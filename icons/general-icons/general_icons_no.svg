@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="6.4831014mm"
+   height="10.612031mm"
+   viewBox="0 0 6.4831014 10.612031"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath907"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-141.0944,-233.42886)"
+         id="path907" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath927"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path927" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,183.63269,-157.53666)"><g
+       id="g307"
+       transform="translate(0,99.999991)"><text
+         id="text906"
+         xml:space="preserve"
+         transform="translate(-686.9056,535.42885)"
+         clip-path="url(#clipPath907)"><tspan
+           id="tspan906"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#105780;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">No</tspan></text><g
+         id="g119"
+         transform="translate(0,-119.99999)"><path
+           id="path926"
+           d="m 55704.797,73690.84 c -2577.977,0 -4667.837,2089.86 -4667.837,4667.83 0,2577.98 2089.86,4667.84 4667.837,4667.84 2577.973,0 4667.836,-2089.86 4667.836,-4667.84 -3.176,-2576.66 -2091.168,-4664.654 -4667.836,-4667.83 z m -3949.707,4667.83 c -1.242,-2179.76 1764.805,-3947.834 3944.574,-3949.08 924.606,-0.53 1820.004,323.535 2530.082,915.715 l -5558.326,5558.32 c -592.764,-707.775 -917.2,-1601.745 -916.33,-2524.955 z m 3949.707,3949.71 c -923.207,0.87 -1817.177,-323.57 -2524.949,-916.33 l 5558.32,-5558.32 c 1396.082,1674.05 1170.762,4162.86 -503.293,5558.91 -710.075,592.17 -1605.508,916.27 -2530.078,915.74 z"
+           style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-828,421.99999)"
+           clip-path="url(#clipPath927)" /></g></g></g></svg>

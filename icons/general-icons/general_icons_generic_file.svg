@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="11.209652mm"
+   height="11.862749mm"
+   viewBox="0 0 11.209652 11.862749"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1049"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         id="path1049" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1064"><path
+         d="M 0,0 H 365760 V 205740 H 0 Z"
+         transform="matrix(0.00262467,0,0,0.00262467,-207.8154,-396.25469)"
+         id="path1064" /></clipPath></defs><g
+     id="g1110"
+     transform="matrix(0.26458333,0,0,0.26458334,163.97785,-196.19298)"><g
+       id="g286"
+       transform="translate(0,87.999991)"><g
+         id="g141"
+         transform="translate(0,-119.99999)"><path
+           id="path1048"
+           d="m 85621.414,135247.89 v 1050.89 h -885.074 z m -441.434,2803.45 c -137.27,0 -248.175,113.11 -248.175,248.18 0,137.26 110.905,249.26 248.175,249.26 h 4392.4 c 137.27,0 248.175,-112 248.175,-249.26 0,-135.07 -110.905,-248.18 -248.175,-248.18 z m 0,1183.76 c -137.27,0 -248.175,113.1 -248.175,249.26 0,136.17 110.905,248.17 248.175,248.17 h 4392.4 c 137.27,0 248.175,-112 248.175,-248.17 0,-136.16 -110.905,-249.26 -248.175,-249.26 z m 0,1183.74 c -137.27,0 -248.175,113.11 -248.175,249.27 0,137.27 110.905,248.17 248.175,248.17 h 4392.4 c 137.27,0 248.175,-110.9 248.175,-248.17 0,-136.16 -110.905,-249.27 -248.175,-249.27 z m 0,1185.96 c -137.27,0 -248.175,110.9 -248.175,248.17 0,136.15 110.905,249.26 248.175,249.26 h 4392.4 c 137.27,0 248.175,-113.11 248.175,-249.26 0,-137.27 -110.905,-248.17 -248.175,-248.17 z m 5176.45,-6898.27 v 8301.64 h -5933.05 v -5933.05 h 1585.66 c 215.226,0 389.83,-174.59 389.83,-389.81 v -1978.78 z m -4455,-778.55 c -114.2,0 -225.12,50.5 -297.59,138.36 l -1862.38,2202.78 c -60.4,70.28 -93.34,160.33 -93.34,251.48 v 6877.4 c 0,215.22 176.794,388.72 389.825,388.72 h 6710.505 c 216.33,0 389.83,-174.6 389.83,-388.72 v -9080.2 c 0,-214.13 -176.796,-388.72 -389.83,-389.82 z"
+           style="fill:#2ab5e8;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           transform="matrix(0.00262467,0,0,0.00262467,-828,421.99999)"
+           clip-path="url(#clipPath1049)" /></g><text
+         id="text1063"
+         xml:space="preserve"
+         transform="translate(-620.1846,698.25468)"
+         clip-path="url(#clipPath1064)"><tspan
+           id="tspan1063"
+           style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Arial;writing-mode:lr-tb;fill:#11567f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           x="0"
+           y="0">Generic File</tspan></text></g></g></svg>
