@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VC0v2etza7etE0AFDtug-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#29B5E8;strokeWidth=1;fontFamily=Arial;fontSize=12;fontColor=#11567F;fillColor=light-dark(#D4F0FA,#A47CDD);" value="" vertex="1">
-          <mxGeometry height="250" width="380" x="180" y="100" as="geometry" />
+          <mxGeometry height="250" width="380" x="280" y="157" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
