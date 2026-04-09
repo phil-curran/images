@@ -20,9 +20,9 @@ Use this repo when you want:
 - a shared icon library checked into Git
 - consistent diagram styling across contributors
 
-This repo is optimized primarily for **VS Code + the Draw.io extension**.
+This repo is optimized primarily for **VS Code / Cursor + the Draw.io extension**.
 
-It also includes a `config.json` file for people using the **web browser version of draw.io / diagrams.net**, but browser behavior is different and more manual.
+It also includes **`config/config.json`** for people using the **web browser version of draw.io / diagrams.net**, but browser behavior is different and more manual.
 
 ---
 
@@ -34,10 +34,14 @@ A typical layout looks like this:
 .
 ├── .vscode/
 │   └── settings.json
+├── config/
+│   └── config.json
+├── icons/                          # source SVGs (optional for consumers)
 ├── libraries/
-│   └── all-icons.xml
-├── config.json
-├── MASTER.drawio
+│   └── all-icons.xml               # generated Draw.io library
+├── scripts/
+│   └── build_drawio_icon_library.py
+├── main.drawio                     # canonical diagram file (recommended hub)
 └── README.md
 ```
 
@@ -45,7 +49,7 @@ A typical layout looks like this:
 
 #### `.vscode/settings.json`
 
-This file configures the VS Code Draw.io extension for this repository. It includes things like:
+This file configures the VS Code / Cursor Draw.io extension for this repository. It includes things like:
 
 - preset colors
 - default vertex style
@@ -59,11 +63,17 @@ The shared settings use `hediet.vscode-drawio.*` keys, including a repo-relative
 
 This is the shared custom icon library for the project.
 
-This file must be a valid Draw.io library file. The icon entries inside it include fields like `title`, `data`, `w`, `h`, `aspect`, and `tags`.
+This file must be a valid Draw.io library file. Entries include fields like `title`, `data`, `w`, `h`, `aspect`, and `tags`. It is **generated** from `icons/**/*.svg` by running:
 
-#### `config.json`
+```bash
+python3 scripts/build_drawio_icon_library.py
+```
 
-This file is for **browser-based draw.io / diagrams.net users**. It contains draw.io-style editor configuration such as:
+Regenerate after adding or changing SVGs under `icons/`.
+
+#### `config/config.json`
+
+This file is for **browser-based draw.io / diagrams.net users** and for **draw.io desktop** (e.g. symlink or merge into the app’s Application Support `config.json`). It contains editor configuration such as:
 
 - `defaultFonts`
 - `presetColors`
@@ -71,83 +81,126 @@ This file is for **browser-based draw.io / diagrams.net users**. It contains dra
 - `defaultVertexStyle`
 - `defaultEdgeStyle`
 
-This file is **not** used by the VS Code Draw.io extension.
+This file is **not** used by the VS Code Draw.io extension (the extension uses `.vscode/settings.json`).
 
-#### `*.drawio`
+**Note:** Editor configuration is **not** embedded inside `.drawio` diagram files. The diagram XML holds pages and shapes only; palette and library availability come from the environment (workspace settings, desktop config, or manual browser steps).
 
-These are the actual diagram files. These are the real project artifacts and should be treated as the source of truth for diagram content.
+#### `main.drawio`
+
+**Canonical diagram file** for this repo. Treat it as the main hub for project visuals unless you intentionally add other `.drawio` files. It can contain multiple **pages** (tabs), each a `<diagram>` in the XML.
 
 ---
 
-## Recommended workflow
+## Recommended workflow (humans)
 
 The recommended workflow for this repository is:
 
 1. Clone the repo
-2. Open the repo root in VS Code
-3. Install the Draw.io extension for VS Code
+2. Open the repo root in VS Code or Cursor
+3. Install the **Draw.io Integration** extension (publisher **Henning Dieterichs**, id `hediet.vscode-drawio`)
 4. Confirm the workspace `.vscode/settings.json` is active
-5. Open or create a `.drawio` file
+5. Open **`main.drawio`**
 6. Use the shared icon library and default styles
 
 This is the supported path.
 
 ---
 
-## VS Code setup
+## Workflow for AI agents
+
+Use this section when an automated agent (or contributor following agent-style steps) should extend diagrams in this repo.
+
+### Canonical file
+
+- Treat **`main.drawio`** as the **single canonical diagram file** for new visuals unless the user specifies another path.
+- The file is XML: `<mxfile>` → one or more `<diagram>` pages → `<mxGraphModel>` → `<root>` and `mxCell` elements.
+
+### Adding a new page (tab)
+
+When the user asks for a new diagram **page** with a given name:
+
+1. **Name** — Set the `<diagram>` attribute **`name`** to the suggested page name (e.g. `Architecture-v2`, `S6`). Escape XML special characters (`&` → `&amp;`, etc.).
+2. **Unique id** — Give each `<diagram>` a unique **`id`** (opaque string, e.g. `agent-` + random suffix or a UUID-like value) so it does not clash with existing pages.
+3. **Structure** — Append a new **`<diagram>...</diagram>`** block **before** `</mxfile>`, after the last existing diagram. Inside it, use **`mxGraphModel`** with attributes consistent with existing pages (copy `pageWidth`, `pageHeight`, grid settings from `Page-1` unless the user wants different dimensions).
+4. **Empty canvas** — Inside **`<root>`**, include exactly:
+   - `<mxCell id="0"/>`
+   - `<mxCell id="1" parent="0"/>`  
+   Root ids `0` and `1` are normal **per page**.
+5. **`pages` attribute** — On **`<mxfile>`**, set **`pages="<N>"`** where **N** is the **exact count** of `<diagram>` elements. A mismatch (e.g. `pages="5"` with only one diagram) can break the Draw.io UI.
+6. **Validate** — Ensure the file remains well-formed XML.
+
+### Editing diagram content
+
+- New shapes are additional **`<mxCell>`** elements under that page’s **`<root>`**, usually with `parent="1"`, plus `vertex="1"` or `edge="1"`, `style`, `value`, and **`mxGeometry`** as needed.
+- Align colors/fonts with **`.vscode/settings.json`** / **`config/config.json`** when brand consistency matters.
+- **Icons:** In the UI, use the **Brand icons** library (from `libraries/all-icons.xml`). In raw XML, prefer simple shapes unless the user requires embedded images (data URIs are heavy).
+
+### Optional: export or rebuild assets
+
+- **Regenerate icon library** after changing `icons/`:
+
+  ```bash
+  python3 scripts/build_drawio_icon_library.py
+  ```
+
+- **Export one page with draw.io desktop** (page index is **1-based**):
+
+  ```bash
+  "/Applications/draw.io.app/Contents/MacOS/draw.io" -x -f svg -o out.svg -p 1 main.drawio
+  ```
+
+  Adjust `-p` for the tab index and paths for your OS.
+
+### If the Draw.io editor does not open in Cursor / VS Code
+
+That is an **IDE** issue, not the diagram XML:
+
+1. Install **Draw.io Integration** (`hediet.vscode-drawio`).
+2. Open **`main.drawio`** from the Explorer.
+3. If it opens as plain XML, use **Reopen Editor With…** → **Draw.io** editor.
+4. Open the **repository root** as the workspace so `.vscode/settings.json` applies.
+
+Agents can still edit **`main.drawio` as XML** without the visual editor; the steps above apply either way.
+
+### Agent checklist (short)
+
+| Step | Action |
+|------|--------|
+| 1 | Open `main.drawio` and count existing `<diagram>` elements. |
+| 2 | Add `<diagram name="…" id="…">` with empty `mxGraphModel` + `root` (`0`, `1`). |
+| 3 | Set `<mxfile … pages="<count>">` to match the number of diagrams. |
+| 4 | Save; have the user verify layout in Draw.io when possible. |
+
+---
+
+## VS Code / Cursor setup
 
 ### 1. Clone the repository
-
-Clone the repository normally:
 
 ```bash
 git clone <repo-url>
 cd <repo-folder>
 ```
 
-### 2. Open the repo root in VS Code
+### 2. Open the repo root
 
-Open the **repository root folder** in VS Code, not a subfolder like `libraries/`.
+Open the **repository root folder**, not a subfolder like `libraries/`.
 
-This matters because the custom library path in workspace settings is repo-relative:
+The custom library path is repo-relative:
 
 ```json
 "file": "${workspaceFolder}/libraries/all-icons.xml"
 ```
 
-If you open the wrong folder as the workspace root, the extension may fail to find the icon library.
+If the workspace root is wrong, the extension may not find the icon library.
 
-#### Correct
+### 3. Install the Draw.io extension
 
-Open:
+Install **Draw.io Integration** (search Extensions for Draw.io / `hediet`). Reload the window if prompted.
 
-```text
-<repo-root>
-```
+### 4. Verify workspace settings
 
-#### Incorrect
-
-Do not open only:
-
-```text
-<repo-root>/libraries
-```
-
-or another nested folder unless you also update the workspace setting.
-
-### 3. Install the VS Code Draw.io extension
-
-Install the Draw.io extension for VS Code.
-
-Search the Extensions panel for Draw.io, or install the extension published by the `hediet` project.
-
-After installation, reload VS Code if prompted.
-
-### 4. Verify that workspace settings are active
-
-Open the workspace settings JSON and confirm the repo settings are present.
-
-You should see a `.vscode/settings.json` file containing keys like:
+Confirm `.vscode/settings.json` contains:
 
 - `hediet.vscode-drawio.presetColors`
 - `hediet.vscode-drawio.customColorSchemes`
@@ -156,53 +209,31 @@ You should see a `.vscode/settings.json` file containing keys like:
 - `hediet.vscode-drawio.customFonts`
 - `hediet.vscode-drawio.customLibraries`
 
-If these settings are not active, the repo is not configured correctly in your VS Code workspace.
+These should be **workspace** settings (the file in the repo), not only user-global settings, unless you want them everywhere.
 
-#### Important
+### 5. Reload the window
 
-The shared settings file must be applied as **workspace settings**, not copied into user-global settings unless you intentionally want that behavior everywhere.
+Run **Developer: Reload Window** after cloning or changing settings.
 
-The repo is designed so that cloning and opening the repo root should automatically apply the workspace settings.
+### 6. Open `main.drawio`
 
-### 5. Reload the VS Code window
+Open **`main.drawio`**. It should open in the Draw.io editor. If it opens as text, use **Reopen Editor With…** → Draw.io.
 
-After cloning, installing the extension, or changing the settings file, run:
+### 7. Confirm shared defaults
 
-- `Developer: Reload Window`
-
-This helps ensure the Draw.io extension reloads the workspace settings and library configuration.
-
-### 6. Open a `.drawio` file
-
-Open an existing `.drawio` file such as `MASTER.drawio`, or create a new one.
-
-The file should open in the Draw.io custom editor.
-
-If it opens as plain text instead:
-
-1. Right click the file
-2. Choose **Reopen Editor With...**
-3. Select the Draw.io editor
-
-### 7. Confirm the shared defaults are active
-
-After opening a diagram, verify:
-
-- the shared preset colors are available
-- new shapes use the expected default styling
-- the custom icon library is available
+Check preset colors, default styles for new shapes, and the **Brand icons** library in the sidebar.
 
 ---
 
 ## Custom icon library behavior
 
-This repo includes a shared custom icon library at:
+The shared library lives at:
 
 ```text
 libraries/all-icons.xml
 ```
 
-The VS Code workspace settings point the Draw.io extension at that file using:
+Workspace settings load it via:
 
 ```json
 "hediet.vscode-drawio.customLibraries": [
@@ -216,214 +247,92 @@ The VS Code workspace settings point the Draw.io extension at that file using:
 
 ### What this means
 
-If the repo root is opened correctly and the extension loads successfully, the shared icon library should be available in the Draw.io sidebar.
+- Icons **placed on the canvas** are stored **inside** the saved `.drawio` file.
+- The **library panel** (list of draggable icons) is provided by the **editor configuration**, not by the diagram file alone.
 
-### Important limitation
+### Library file shape
 
-The icon library is **not stored inside the `.drawio` file just because you can see it in the UI**.
-
-The `.drawio` file stores the actual diagram content, pages, and any icons already placed on the canvas.
-
-The library itself is loaded by the editor environment.
-
-That means:
-
-- if you drag icons from the library onto the diagram and save the file, those placed icons are part of the `.drawio` file
-- but the visibility and availability of the **library itself** depends on the editor configuration, not on saving the diagram
-
-For VS Code users, the repo’s workspace settings are what make the library available automatically.
+The generated file uses an **`mxlibrary`** wrapper around a **JSON array** of entries (see [draw.io custom library format](https://www.drawio.com/doc/faq/format-custom-shape-library)). Do not replace it with unstructured text.
 
 ---
 
 ## Browser usage: important differences
 
-This repo can also be used with the browser version of draw.io / diagrams.net, but the behavior is different.
+The browser version does **not** read `.vscode/settings.json`.
 
-### The browser does not use `.vscode/settings.json`
+Browser-oriented configuration is in **`config/config.json`**. Users paste or merge that into **Extras → Configuration** (or **Settings → Configuration** on some themes), per [diagrams.net configuration](https://www.drawio.com/doc/faq/configure-diagram-editor).
 
-The browser version does **not** read the repository’s `.vscode/settings.json`.
-
-That file is only meaningful to the VS Code Draw.io extension.
-
-So if someone opens a `.drawio` file in the browser, they should not expect the VS Code workspace configuration to load automatically.
-
-### The browser uses `config.json`, not `settings.json`
-
-The browser-side configuration lives in `config.json`, which contains draw.io editor config like:
-
-- `defaultFonts`
-- `presetColors`
-- `customColorSchemes`
-- `defaultVertexStyle`
-- `defaultEdgeStyle`
-
-This file exists so browser users can manually load or apply the shared browser configuration.
-
-### The browser also does not automatically load the icon library from the repo
-
-Opening a `.drawio` file in the browser does **not** automatically load the repo’s custom library file into the Shapes sidebar.
-
-A browser user may need to manually load or import the shared icon library.
+The browser does **not** automatically load `libraries/all-icons.xml` from the repo; users may need to **File → Open Library** or host the library URL.
 
 ---
 
 ## Why browser usage may appear inconsistent
 
-Using the same `.drawio` file in VS Code and the browser can still work, but browser users need to understand these differences:
+- Browser settings ≠ VS Code workspace settings.
+- Persistence depends on browser storage / profile.
+- Library visibility is per user unless they load the same library file.
 
-- browser settings are separate from VS Code settings
-- browser configuration persistence depends on the browser profile and local storage
-- the browser does not automatically read `.vscode/settings.json`
-- the browser does not automatically attach the repo’s library or sidebar state to the `.drawio` file
-- a library being visible for one user does not mean it will appear automatically for another user unless they also load or configure it
-
-For that reason, the recommended supported workflow is still:
-
-**Use VS Code as the primary editing environment for this repo.**
+**Recommended primary environment:** VS Code or Cursor with this repo as the workspace root.
 
 ---
 
 ## Safe usage rules
 
-### Use one `.drawio` file as the source of truth per project
-
-A good pattern is:
-
-- one master `.drawio` file per project
-- multiple pages inside that file for related diagrams and slides
-- one shared icon library in `libraries/all-icons.xml`
-- one shared `.vscode/settings.json`
-
-This keeps the editing model simple and reduces fragmentation.
-
-### Do not hand-edit `.drawio` files unless necessary
-
-A `.drawio` file is XML and can break if merge conflict markers or malformed XML are introduced.
-
-If a merge conflict happens, resolve it carefully.
-
-Do not leave markers like:
-
-```text
-<<<<<<< HEAD
-=======
->>>>>>> branch
-```
-
-inside a `.drawio` file.
-
-### Be careful with unsupported or newer style syntax
-
-If a diagram opens in the browser but hangs in VS Code, one possible cause is unsupported style syntax in the file. Keep diagram styling simple and stable where possible.
-
-### Keep the custom library file valid
-
-The shared icon library must remain a proper Draw.io library file.
-
-The library file must not be just a raw JSON array. It must be wrapped as a Draw.io library file.
-
-At minimum, it should look structurally like:
-
-```xml
-<mxlibrary>
-[
-  {
-    "title": "example",
-    "data": "data:image/svg+xml;base64,...",
-    "w": 64,
-    "h": 64,
-    "aspect": "fixed",
-    "tags": "example"
-  }
-]
-</mxlibrary>
-```
+- Prefer **one hub** `.drawio` file (**`main.drawio`**) with **multiple pages** for related diagrams.
+- **Keep `pages="N"` on `<mxfile>` equal to the real number of `<diagram>` elements.**
+- `.drawio` files are XML—resolve merge conflicts carefully; never leave conflict markers inside the file.
+- Prefer stable, simple styling if diagrams must open in both VS Code and browser.
+- Keep **`libraries/all-icons.xml`** valid; regenerate with `scripts/build_drawio_icon_library.py` after icon changes.
 
 ---
 
 ## Troubleshooting
 
-### Problem: the Draw.io editor does not load in VS Code
+### Draw.io editor does not load in VS Code / Cursor
 
-Try the following:
+1. Confirm **Draw.io Integration** (`hediet.vscode-drawio`) is installed.
+2. **Reopen Editor With…** → Draw.io.
+3. Temporarily simplify `.vscode/settings.json` and reload if a bad setting blocks the webview.
+4. Open the **repo root** as the workspace.
 
-1. Remove recent changes to `.vscode/settings.json`
-2. Reload the window
-3. Open the `.drawio` file again
-4. Re-add settings incrementally if necessary
+### Custom icon library does not appear
 
-A malformed or problematic workspace setting can interfere with editor startup.
+1. Repo root is the workspace folder.
+2. File exists: `libraries/all-icons.xml`.
+3. `.vscode/settings.json` includes `customLibraries` with `${workspaceFolder}/libraries/all-icons.xml`.
+4. Reload the window and reopen `main.drawio`.
 
-### Problem: the custom icon library does not appear
+### Browser: colors or icons missing
 
-Check these in order:
-
-1. Confirm you opened the repo root in VS Code
-2. Confirm the file exists at:
-
-```text
-<repo-root>/libraries/all-icons.xml
-```
-
-3. Confirm `.vscode/settings.json` contains the expected `customLibraries` entry
-4. Reload the VS Code window
-5. Reopen the `.drawio` file
-6. Search for a known icon title in the library
-
-### Problem: the library file exists but still does not load
-
-Check whether `all-icons.xml` is a valid Draw.io library file.
-
-The file content must not be just a raw JSON array. It must be wrapped as a Draw.io library file.
-
-### Problem: someone uses the browser and says the colors or icons are missing
-
-That is expected unless they have separately loaded the browser-side config and library.
-
-The browser does not consume `.vscode/settings.json`.
-
-They need to use the browser-oriented repo assets, not the VS Code settings file.
+Expected unless the user applied **`config/config.json`** in the browser and loaded the library manually. The browser does not use `.vscode/settings.json`.
 
 ---
 
 ## Contributor guidance
 
-If you update this repository, follow these rules:
-
-1. Keep `.vscode/settings.json` minimal and stable
-2. Keep `libraries/all-icons.xml` valid
-3. Prefer repo-relative paths in workspace settings
-4. Do not assume browser users automatically get VS Code behavior
-5. Use `.drawio` files for diagram content, not for storing editor configuration expectations
+1. Keep `.vscode/settings.json` minimal and stable.
+2. Keep `libraries/all-icons.xml` valid; run `python3 scripts/build_drawio_icon_library.py` after editing `icons/`.
+3. Use repo-relative paths in workspace settings.
+4. Do not assume browser users get VS Code behavior automatically.
+5. Use **`main.drawio`** (or an agreed file) for diagram content; do not rely on embedding full editor `config.json` inside `.drawio` files—the standard app does not apply palette config from inside the diagram XML.
 
 ---
 
 ## Summary
 
-### VS Code users
+### VS Code / Cursor users
 
-Supported path.
+- Clone, open repo root, install Draw.io Integration, use `.vscode/settings.json`, open **`main.drawio`**, use **Brand icons** and shared palette.
 
-They should:
+### AI agents
 
-- clone the repo
-- open the repo root
-- install the Draw.io extension
-- let `.vscode/settings.json` configure the extension
-- use the shared icon library and palette
+- Use **`main.drawio`** as the hub; add **new `<diagram>` pages** with the **suggested name** and a **unique id**; keep **`pages`** accurate; prefer XML-safe edits and user verification in the visual editor when possible.
 
 ### Browser users
 
-Possible, but more manual.
-
-They should:
-
-- understand that `.vscode/settings.json` does not apply in the browser
-- use `config.json` separately
-- manually ensure the icon library is available if needed
+- More manual: apply **`config/config.json`** in the editor; load **`libraries/all-icons.xml`** if needed.
 
 ### Source of truth
 
-The `.drawio` files are the source of truth for the diagrams themselves.
-
-The icon library and editor settings are shared repo assets that support the editing experience, but they are not automatically embedded into the `.drawio` file just because the diagram was saved.
+- **Diagram content** lives in **`.drawio`** files (recommended: **`main.drawio`** with multiple pages).
+- **Palette, defaults, and library sidebar** come from **`.vscode/settings.json`**, **`config/config.json`**, and **`libraries/all-icons.xml`**, not from inside the diagram file.
